@@ -15,7 +15,9 @@
         {
           "query": "SELECT mean(\"usage_user\") AS \"usage_user\" FROM \"cpu\"",
           "label": "% CPU time",
-          "groupbys": [],
+          "groupbys": [
+            "\"cpu\""
+          ],
           "wheres": []
         }
       ]

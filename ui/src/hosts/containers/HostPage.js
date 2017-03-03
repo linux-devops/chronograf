@@ -93,7 +93,7 @@ export const HostPage = React.createClass({
 
     const autoflowLayouts = layouts.filter((layout) => !!layout.autoflow);
 
-    const cellWidth = 4;
+    const cellWidth = 6; // Changed by Colin
     const cellHeight = 4;
     const pageWidth = 12;
 
